@@ -1,0 +1,39 @@
+:root{
+    --primary:#00aeef;
+    --textcolor:#3c6382;
+    --bgcolor:#f4f4f4;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 1340px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 25px;
+}
+.btn{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+}
+.about_section_title {
+    text-align: center;
+}
+.slick-dots li {
+    width: 9px;
+}
+.slick-dots li button:before {
+    font-size: 6px;
+    width: 9px;
+    height: 9px;
+    background-color: grey;
+    border-radius: 50%;
+}
